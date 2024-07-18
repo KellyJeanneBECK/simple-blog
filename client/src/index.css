@@ -5,3 +5,10 @@
   margin: 0;
   padding: 0;
 }
+
+#root {
+  background-image: url(./assets/images/Noise.svg);
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
