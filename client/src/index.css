@@ -19,4 +19,23 @@
 
 main {
   margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  padding: 0 2rem;
+}
+
+h2 {
+  font-family: "Trirong", serif;
+  font-size: 2rem;
+  line-height: 125%;
+  font-weight: 200;
+}
+
+p {
+  font-family: "Scope One", serif;
+  padding: 1rem 0;
 }
