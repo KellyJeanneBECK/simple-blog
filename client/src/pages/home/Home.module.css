@@ -22,3 +22,13 @@
   -webkit-text-stroke: 3px white;
   paint-order: stroke fill;
 }
+
+@media screen and (min-width: 768px) {
+  .linkSection {
+    padding: 3rem 0;
+  }
+
+  .homeLink {
+    font-size: 1.5rem;
+  }
+}

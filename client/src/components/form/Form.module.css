@@ -12,6 +12,7 @@
 .titleForm {
   font-size: 1.75rem;
   border-bottom: solid 2px black;
+  padding: 1.5rem 0;
 }
 
 form {
@@ -42,4 +43,21 @@ textarea {
   font-family: "Scope One", serif;
   font-size: 1.25rem;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .titleForm {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+  }
+
+  input,
+  textarea {
+    margin-bottom: 2rem;
+  }
+
+  .btnForm {
+    font-size: 1.5rem;
+  }
 }
