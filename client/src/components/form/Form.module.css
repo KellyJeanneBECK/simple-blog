@@ -1,0 +1,63 @@
+.sectionForm {
+  margin-top: 2rem;
+  width: 100vw;
+  border: solid 8px black;
+  padding: 1rem 2rem;
+  background-color: white;
+  background-image: url(../../assets/images/Motif_1_blog.svg);
+  background-size: 50px;
+  box-shadow: 0 -8px 8px var(--yellow-color);
+}
+
+.titleForm {
+  font-size: 1.75rem;
+  border-bottom: solid 2px black;
+  padding: 1.5rem 0;
+}
+
+form {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+label,
+input,
+textarea {
+  font-family: "scope One", serif;
+  width: 100%;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+}
+
+.btnForm {
+  border: solid 2px black;
+  border-radius: 0;
+  background-color: white;
+  padding: 0.25rem 1rem;
+  font-family: "Scope One", serif;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .titleForm {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+  }
+
+  input,
+  textarea {
+    margin-bottom: 2rem;
+  }
+
+  .btnForm {
+    font-size: 1.5rem;
+  }
+}

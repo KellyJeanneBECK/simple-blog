@@ -1,0 +1,14 @@
+footer {
+  width: 100vw;
+  padding: 1rem 2rem;
+  background-color: var(--red-color);
+  display: flex;
+  justify-content: center;
+}
+
+.footerText,
+a {
+  font-family: "Scope One", serif;
+  color: white;
+  text-decoration: none;
+}
