@@ -2,10 +2,10 @@ import styles from "./Form.module.css";
 
 function Form() {
   return (
-    <article className={styles.sectionForm}>
-      <h3 className={styles.titleForm}>
+    <section className={styles.sectionForm}>
+      <h2 className={styles.titleForm}>
         C&apos;est ici que j&apos;écris mes articles
-      </h3>
+      </h2>
       <form>
         <label htmlFor="title">Titre de l&apos;article :</label>
         <input type="text" id="title" name="title" required />
@@ -23,7 +23,7 @@ function Form() {
           Publier
         </button>
       </form>
-    </article>
+    </section>
   );
 }
 

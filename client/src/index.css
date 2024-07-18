@@ -2,6 +2,10 @@
 
 :root {
   --red-color: #780116;
+  --purple-dark-color: #4f4789;
+  --purple-medium-color: #a1869e;
+  --purple-light-color: #bdb5f8;
+  --yellow-color: #e3d985;
 }
 * {
   box-sizing: border-box;
@@ -19,9 +23,6 @@
 
 main {
   margin-top: 10rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
 }
 
 section {
@@ -38,4 +39,8 @@ h2 {
 p {
   font-family: "Scope One", serif;
   padding: 1rem 0;
+}
+
+a:hover {
+  cursor: pointer;
 }

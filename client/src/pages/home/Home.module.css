@@ -1,0 +1,24 @@
+.linkSection {
+  width: 100vw;
+  padding: 2rem 0;
+  background: linear-gradient(
+    var(--purple-dark-color),
+    var(--purple-medium-color)
+  );
+  box-shadow: inset 0 4px 4px var(--purple-light-color);
+  display: flex;
+  justify-content: center;
+}
+
+.homeLink {
+  border: solid 3px black;
+  padding: 0.5rem 1rem;
+  color: black;
+  background-image: url(../../assets/images/Noise.svg);
+  background-size: 1080px;
+  box-shadow: 7px -5px 4px var(--purple-light-color);
+  font-family: "DotGothic16", sans-serif;
+  letter-spacing: 0.2rem;
+  -webkit-text-stroke: 3px white;
+  paint-order: stroke fill;
+}
