@@ -13,6 +13,13 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #root {
   background-image: url(./assets/images/Noise.svg);
   background-size: 1080px;
