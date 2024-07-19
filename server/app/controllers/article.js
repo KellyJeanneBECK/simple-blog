@@ -24,15 +24,13 @@ const read = async (req, res) => {
 
 const add = async (req, res) => {
   try {
-    const title = req.body.title;
-    const intro = req.body.intro;
-    const content = req.body.content;
+    const { title, intro, content } = req.body;
 
     const isAdd = await addArticle(title, intro, content);
     if (isAdd) {
-      return res.status(200);
+      return res.status(200).json({ msg: "article post with success" });
     } else {
-      return res.status(500);
+      return res.status(500).json({ msg: "CHEH'" });
     }
   } catch (error) {
     console.error(error);

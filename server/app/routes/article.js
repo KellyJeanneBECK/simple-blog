@@ -1,7 +1,7 @@
 const express = require("express");
-const { browse, read, add } = require("../controllers/article.js");
-
 const router = express.Router();
+
+const { browse, read, add } = require("../controllers/article.js");
 
 router.get("/", browse);
 router.get("/:id", read);
