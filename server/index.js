@@ -1,13 +1,13 @@
-const express = require("express");
+require("dotenv").config();
 
-const app = express();
+const app = require("./app/config");
 
-const PORT = 3310;
+const PORT = process.env.APP_PORT || 3310;
 
-app.get("/", (req, res) => {
-  res.send("Welcome to my blog's server");
-});
-
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+app.listen(PORT, (err) => {
+  if (err) {
+    console.error("Une erreur est survenu: ", err);
+  } else {
+    console.info(`Le server tourne sur le port : ${PORT}`);
+  }
 });

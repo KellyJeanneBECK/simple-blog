@@ -10,9 +10,6 @@ function Form() {
         <label htmlFor="title">Titre de l&apos;article :</label>
         <input type="text" id="title" name="title" required />
 
-        <label htmlFor="publish">Date</label>
-        <input type="date" id="publish" name="publish" required />
-
         <label htmlFor="intro">Une petite introduction :</label>
         <textarea id="intro" name="intro" required rows="4"></textarea>
 
